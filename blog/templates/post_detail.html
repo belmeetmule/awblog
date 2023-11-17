@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %} - {{post.title }} {% endblock %}
+
+{% block content %}
+
+<article>
+    <figure>
+     <!-- featured image --> 
+<img src="{{ post.image.url }}" class="rounded featured-image-list" alt="{{post.title}}">
+    </figure>
+    <div class="mt-3">
+        <h1>{{post.title}}</h1>
+        <p class="text-muted">
+            Published {{ post.publish.date }} by <strong>{{ post.author }}</strong>
+        </p>
+    </div>
+    <div class="article-body">
+                {{post.body|safe}} <!-- remove linebreaks -->
+    </div>
+    
+</article>
+
+{% endblock %}
