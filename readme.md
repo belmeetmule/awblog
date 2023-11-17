@@ -11,15 +11,15 @@ A simple blog app where users can post their articles and read what others have 
 
 ## Built with
 
-    ### Front-End
-        - Bootstrap
-        - HTML
-        - CSS
-        - Javascript
-    ## Backend
-        - Django
-        - Python
-        - PostgreSQL
+### Front-End
+    - Bootstrap
+    - HTML
+    - CSS
+    - Javascript
+### Backend
+    - Django
+    - Python
+    - PostgreSQL
 
 ## Running the Project Locally
 ### prerequisites
