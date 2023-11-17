@@ -5,6 +5,7 @@
 A simple blog app where users can post their articles and read what others have posted !!
 
 ## Screenshot
+> The screenshot of the app goes here vey soon.
 
 ## Live demo
 [No live link yet]
