@@ -11,7 +11,7 @@ test-venv/
 db.sqlite3
 
 # Static folder at project root
-/media/
+/media/*
 
 # Windows
 Thumbs.db*
